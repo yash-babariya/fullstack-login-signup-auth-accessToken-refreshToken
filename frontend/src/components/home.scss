@@ -1,0 +1,62 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(../assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: 00;
+        margin-bottom: 1rem;
+        text-align: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(30px);
+        padding: 1rem;
+        border-radius: 5px;
+
+
+        h1,
+        p {
+            font-size: 2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+
+    .registion-btn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+
+        button {
+            width: 100px;
+            margin-top: 1rem;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 8px 12px;
+            cursor: pointer;
+            border: none;
+            font-size: 18px;
+            transition: all 0.3s ease-in-out;
+            border-radius: 5px;
+
+            &:hover {
+                background-color: #0c0c0c;
+                transform: scale(1.1);
+            }
+        }
+
+    }
+}
