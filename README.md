@@ -49,6 +49,6 @@ This is a full-stack project that implements **JWT-based Authentication** using 
 │   ├── config/
 │   ├── models/
 │   ├── routes/
-│   ├── utils/
+│   ├── auth/
 │   └── index.js
 
