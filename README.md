@@ -20,6 +20,24 @@ This is a full-stack project that implements **JWT-based Authentication** using 
 4. **Token Expiration**: The access token expires in 1 minute, while the refresh token lasts for 5 minutes.
 5. **Protected Routes**: Users can access certain routes only when authenticated.
 
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/MERN-product-crud.git](https://github.com/yash-babariya/fullstack-login-signup-auth-accessToken-refreshToken.git
+
+2. Install backend dependencies:
+   ```bash
+   cd backend
+   npm install
+   npm run dev
+
+3. Install frontend dependencies:
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+
 ## Folder Structure
 
 ```bash
@@ -31,27 +49,6 @@ This is a full-stack project that implements **JWT-based Authentication** using 
 │   ├── config/
 │   ├── models/
 │   ├── routes/
-│   ├── utils/
+│   ├── auth/
 │   └── index.js
 
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/MERN-product-crud.git
-   
-2. Navigate to the project directory:
-   ```bash
-   cd backend
-   npm install
-
-4. Install backend dependencies:
-   ```bash
-   cd backend
-   npm install
-
-6. Install frontend dependencies:
-   ```bash
-   cd frontend
-   npm run dev
