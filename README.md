@@ -33,3 +33,25 @@ This is a full-stack project that implements **JWT-based Authentication** using 
 │   ├── routes/
 │   ├── utils/
 │   └── index.js
+
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/MERN-product-crud.git
+   
+2. Navigate to the project directory:
+   ```bash
+   cd backend
+   npm install
+
+4. Install backend dependencies:
+   ```bash
+   cd backend
+   npm install
+
+6. Install frontend dependencies:
+   ```bash
+   cd frontend
+   npm run dev
