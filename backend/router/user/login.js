@@ -20,7 +20,7 @@ export const login = async (req, res) => {
         }
 
         // Generate new tokens
-        const token = jwt.sign({ id: user._id, username: user.username }, JWT_SECRET, { expiresIn: '1m' });
+        const token = jwt.sign({ id: user._id, username: user.username }, JWT_SECRET, { expiresIn: '1s' });
         const refreshToken = jwt.sign({ id: user._id, deviceId }, JWT_REFRESH_SECRET, { expiresIn: '5m' });
 
         // Save the new refresh token and device ID
